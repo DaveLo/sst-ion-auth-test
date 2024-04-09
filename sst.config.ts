@@ -23,6 +23,8 @@ export default $config({
       identitySources: ["$request.header.Authorization"],
       name: "test-authorizer",
       authorizerPayloadFormatVersion: "2.0",
+      authorizerResultTtlInSeconds: 300,
+      enableSimpleResponses: true,
     });
 
     api.route("GET /", {

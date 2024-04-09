@@ -1,0 +1,22 @@
+{
+  "name": "api-auth-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "@types/node": "^20.12.6",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.29.0"
+  }
+}
